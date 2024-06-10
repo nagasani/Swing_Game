@@ -1,4 +1,4 @@
-package sahithi;
+package mygame;
 
 import java.awt.geom.*;
 import java.awt.*;

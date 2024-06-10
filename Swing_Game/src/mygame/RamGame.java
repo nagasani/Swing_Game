@@ -1,4 +1,4 @@
-package sahithi;
+package mygame;
 
 
 
@@ -24,11 +24,11 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 
-public class MaryalaSGame extends JPanel implements KeyListener, Runnable  // Implementing KeyListener here allows you to react to key presses
+public class RamGame extends JPanel implements KeyListener, Runnable  // Implementing KeyListener here allows you to react to key presses
 {
 	private static final int frameWidth = 1200;  // Set Dimension of full frame
 	private static final int frameHeight = 800;
-	private static final String[] levels ={"C:\\Users\\nagas\\eclipse-workspaceGrind75\\sahithi\\src\\sahithi\\level1.txt", "C:\\Users\\nagas\\eclipse-workspaceGrind75\\sahithi\\src\\sahithi\\level2.txt", "C:\\Users\\nagas\\eclipse-workspaceGrind75\\sahithi\\src\\sahithi\\level3.txt"};
+	private static final String[] levels ={"C:\\Users\\nagas\\eclipse-workspaceGrind75\\mygame\\src\\mygame\\level1.txt", "C:\\Users\\nagas\\eclipse-workspaceGrind75\\mygame\\src\\mygame\\level2.txt", "C:\\Users\\nagas\\eclipse-workspaceGrind75\\mygame\\src\\mygame\\level3.txt"};
 	private int levelIndex;
 	private boolean win;
 	private String msg;
@@ -45,7 +45,7 @@ public class MaryalaSGame extends JPanel implements KeyListener, Runnable  // Im
 	private boolean gameLoaded, readDirections;
 	private long startTime;	// Long is a high-capacity int
 
-	public MaryalaSGame()
+	public RamGame()
 	{
 		// Load and configure Java Graphics
 		frame=new JFrame();
@@ -411,6 +411,6 @@ public class MaryalaSGame extends JPanel implements KeyListener, Runnable  // Im
 
 	public static void main(String args[])
 	{
-		MaryalaSGame app=new MaryalaSGame();
+		RamGame app=new RamGame();
 	}
 }
