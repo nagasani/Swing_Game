@@ -28,7 +28,7 @@ public class RamGame extends JPanel implements KeyListener, Runnable  // Impleme
 {
 	private static final int frameWidth = 1200;  // Set Dimension of full frame
 	private static final int frameHeight = 800;
-	private static final String[] levels ={"C:\\Users\\nagas\\eclipse-workspaceGrind75\\mygame\\src\\mygame\\level1.txt", "C:\\Users\\nagas\\eclipse-workspaceGrind75\\mygame\\src\\mygame\\level2.txt", "C:\\Users\\nagas\\eclipse-workspaceGrind75\\mygame\\src\\mygame\\level3.txt"};
+	private static final String[] levels ={"C:\\Users\\nagas\\git\\repository17\\Swing_Game\\src\\mygame\\level1.txt", "C:\\Users\\nagas\\git\\repository17\\Swing_Game\\src\\mygame\\level2.txt", "C:\\Users\\nagas\\git\\repository17\\Swing_Game\\src\\mygame\\level3.txt"};
 	private int levelIndex;
 	private boolean win;
 	private String msg;
